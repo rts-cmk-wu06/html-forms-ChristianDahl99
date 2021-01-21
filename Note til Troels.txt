@@ -1,0 +1,3 @@
+For at holde html koden semantisk korrekt skal jeg style det med css for at få teksten Name, Email, Subject & Message oven over boksene.
+
+Da det ikke var en del af opgaven, og mangel på tid, har jeg ikke implementeret det.
