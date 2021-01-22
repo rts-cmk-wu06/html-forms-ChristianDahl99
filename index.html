@@ -10,19 +10,23 @@
         <fieldset>
             <legend>Support</legend>
             <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" placeholder="Fullname">
-                </li>
-                <li>
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" placeholder="Email">
-                </li>
-                <li>
-                    <label for="message">Message:</label>
-                    <textarea id="message" placeholder="Tell us about your problem"></textarea>
-                </li>
-                <li><button>Submit</button></li>
+                <li><label for="name">Name:</label></li>
+                <input type="text" id="name" placeholder="Fullname">
+            </ul>
+            <ul>
+                <li><label for="email">Email Address:</label></li>
+                <input type="email" id="email" placeholder="Email">
+            </ul>
+            <ul>
+                <li><label for="subject">Subject:</label></li>
+                li<input type="text" id="subject" placeholder="E.g. Server error...">
+            </ul>
+            <ul>
+                <li><label for="message">Message:</label></li>
+                <textarea id="message" rows="4" cols="50" minlength="50" maxlength="2000" placeholder="Tell us about your problem"></textarea>
+            </ul>
+            <ul>
+                <li><button type="submit">Submit</button></li>
             </ul>
         </fieldset>
     </form>
